@@ -170,6 +170,7 @@
     background-color: #FFFFFF;
     padding-top: 48px;
     padding-bottom: 48px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     >.container{
         display:flex;
         flex-direction: column;
@@ -186,7 +187,14 @@
     margin-top: 21px;
     margin-right: 25px;
     border: none;
-        padding: 0;
+    padding: 0;
+    fill: currentColor;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
+        &:hover,
+            &:focus {
+                fill: #188CE8;
+            }
 }
 
 .mob-menu-nav {
@@ -208,6 +216,13 @@
         line-height:calc(47/40);
         letter-spacing: 0.02em;
         color: #212121;
+        
+            transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
+            &:hover,
+            &:focus {
+                color: #188CE8;
+            }
 }
 
 .mob-menu-connect {

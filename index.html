@@ -36,7 +36,7 @@
                         <use href="./images/symbol-defs (1).svg#icon-phone"></use>
                     </svg>+38 096 111 11 11</a>
             </div>
-            <button class="menu-open" type="button"><svg class="menu-open-icon" width="40" height="40">
+            <button class="menu-open" type="button"><svg class="menu-open-icon " width="40" height="40">
             <use href="./images/symbol-defs (1).svg#icon-menu_40px"></use>
             </svg></button>
         </div>
@@ -44,7 +44,7 @@
             <div class="container">
                 
                 <div class="mob-menu-top">
-                    <button class="menu-close" type="button"><svg class="menu-close-icon" width="18" height="18">
+                    <button class="menu-close " type="button"><svg class="menu-close-icon " width="18" height="18">
                         <use href="./images/symbol-defs (1).svg#icon-modal-close"></use>
                     </svg></button>
                     <nav class="mob-menu-nav">
@@ -143,18 +143,36 @@
                 <ul class="projects__list list">
                     <div class="exemple-card exemple-card-position">
                         <li class="exemple-card__item">
+                            <picture>
+                                <source srcset="
+                                    ./images/work/img1   1x
+                                    ./images/work/img1-2x.jpg 2x
+                                " media="(min-width: 1200px)" />
+                            </picture>
                             <img class="exemple-card__img" src="./images/1st.jpg" alt="компьютер" width="370">
                             <p class="exemple-card__text">Десктопні додатки </p>
                         </li>
                     </div>
                     <div class="exemple-card exemple-card-position">
                         <li class="exemple-card__item">
+                            <picture>
+                                <source srcset="
+                                    ./images/work/img2   1x
+                                    ./images/work/img2-2x.jpg 2x
+                                " media="(min-width: 1200px)" />
+                            </picture>
                             <img class="exemple-card__img" src="./images/2nd.jpg" alt="телефон" width="370">
                             <p class="exemple-card__text"> Мобільні додатки</p>
                         </li>
                     </div>
-                    <div class="exemple-card exemple-card-position"> 
+                    <div class="exemple-card exemple-card-position"mages
                         <li class="exemple-card__item">
+                            <picture>
+                                <source srcset="
+                                                                ./images/work/img3   1x
+                                                                ./images/work/img3-2x.jpg 2x
+                                                            " media="(min-width: 1200px)" />
+                            </picture>
                         <img class="exemple-card__img" src="./images/3rd.jpg" alt="новые технологии" width="370">
                         <p class="exemple-card__text">Дизайнерські рішення </p>
                     </li></div>
@@ -167,7 +185,21 @@
                     <h2 class="team-title">Наша команда</h2>
                     <ul class="team-list list">
                         <li class="team-item">
+                            <picture>
+                                <source srcset="
+                                                ./images/team/ihor.jpg   1x
+                                                ./images/team/ihor-2x.jpg 2x
+                                            " media="(min-width: 1200px)" />
+                                <source srcset="
+                                                ./images/team/ihor-tablet.jpg    1x,
+                                                ./images/team/ihor-tablet-2x.jpg  2x
+                                            " media="(min-width: 768px)" />
+                                <source srcset="
+                                                ./images/team/ihor-mobile.jpg    1x,
+                                                ./images/team/ihor-mobile-2x.jpg 2x
+                                            " media="(max-width: 767px)" /></picture>
                             <img class="team-photo" src="./images/1j.jpg" alt=" фото Игорь Демьяненко" width="270">
+                            
                             <div class="team-info">
                                 <h3 class="team-name">Игорь Демьяненко</h3>
                                 <p class="team-text">Product Designer</p>
@@ -189,6 +221,20 @@
                             
                         </li>
                         <li class="team-item">
+                            <picture>
+                            <source srcset="
+                                                                            ./images/team/olga.jpg   1x
+                                                                            ./images/team/olga-2x.jpg 2x
+                                                                        " media="(min-width: 1200px)" />
+                            <source srcset="
+                                                                            ./images/team/olga-tablet.jpg    1x,
+                                                                            ./images/team/olga-tablet-2x.jpg  2x
+                                                                        " media="(min-width: 768px)" />
+                            <source srcset="
+                                                                            ./images/team/olga-mobile.jpg    1x,
+                                                                            ./images/team/olga-mobile-2x.jpg 2x
+                                                                        " media="(max-width: 767px)" />
+                                                                        </picture>
                             <img class="team-photo" src="./images/2j.jpg" alt="фото Ольга Репина" width="270">
                             <div class="team-info">
                                 <h3 class="team-name">Ольга Репина</h3>
@@ -212,6 +258,20 @@
                             
                         </li>
                         <li class="team-item">
+                            <picture>
+                            <source srcset="
+                                                                            ./images/team/nik.jpg   1x
+                                                                            ./images/team/nik-2x.jpg 2x
+                                                                        " media="(min-width: 1200px)" />
+                            <source srcset="
+                                                                            ./images/team/nik-tablet.jpg    1x,
+                                                                            ./images/team/nik-tablet-2x.jpg  2x
+                                                                        " media="(min-width: 768px)" />
+                            <source srcset="
+                                                                            ./images/team/nik-mobile.jpg    1x,
+                                                                            ./images/team/nik-mobile-2x.jpg 2x
+                                                                        " media="(max-width: 767px)" />
+                                                                        </picture>
                             <img class="team-photo" src="./images/3j.jpg" alt="фото Николай Тарасов" width="270">
                             <div class="team-info">
                                 <h3 class="team-name">Николай Тарасов</h3>
@@ -235,6 +295,19 @@
                             
                         </li>
                         <li class="team-item">
+                            <picture>
+                            <source srcset="
+                                                                            ./images/team/mich.jpg   1x
+                                                                            ./images/team/mich-2x.jpg 2x
+                                                                        " media="(min-width: 1200px)" />
+                            <source srcset="
+                                                                            ./images/team/mich-tablet.jpg    1x,
+                                                                            ./images/team/mich-tablet-2x.jpg  2x
+                                                                        " media="(min-width: 768px)" />
+                            <source srcset="
+                                                                            ./images/team/mich-mobile.jpg    1x,
+                                                                            ./images/team/mich-mobile-2x.jpg 2x
+                                                                        " media="(max-width: 767px)" /></picture>
                             <img class="team-photo" src="./images/4j.jpg" alt="фото Михаил Ермаков" width="270">
                             <div class="team-info">
                                 <h3 class="team-name">Михаил Ермаков</h3>
