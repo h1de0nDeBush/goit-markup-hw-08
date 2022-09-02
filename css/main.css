@@ -92,7 +92,6 @@ button {
 @media screen and (min-width: 1200px) {
   .header > .container {
     max-width: 1200px;
-    justify-content: space-evenly;
   }
 }
 .header-logo {
@@ -102,7 +101,18 @@ button {
   font-size: 26px;
   line-height: 31px;
   color: #000000;
-  margin-right: 93px;
+}
+@media screen and (min-width: 768px) {
+  .header-logo {
+    max-width: 768px;
+    margin-right: 93px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header-logo {
+    max-width: 1200px;
+    margin-right: 93px;
+  }
 }
 .header-link {
   font-weight: 500;
@@ -116,16 +126,18 @@ button {
   display: none;
   align-items: center;
 }
-@media screen and (min-width: 1200px) {
-  .header-list {
-    max-width: 1200px;
-    display: flex;
-  }
-}
 @media screen and (min-width: 768px) {
   .header-list {
     max-width: 768px;
     display: flex;
+    margin-right: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header-list {
+    max-width: 1200px;
+    display: flex;
+    margin-right: 315px;
   }
 }
 .header-nav {
@@ -215,7 +227,7 @@ button {
   .header-phone,
 .header-mail {
     max-width: 768px;
-    display: block;
+    display: flex;
     font-size: 12px;
     line-height: 1.1666666667;
   }
