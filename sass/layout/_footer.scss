@@ -12,9 +12,10 @@
             @media screen and(min-width:1200px) {
                     max-width: 1200px;
                     display: flex;
+                        gap: 0px;
                         flex-wrap: nowrap;
                         justify-content: none;
-                        gap: 0;
+                        
                 }
         }
     &-logo {
@@ -26,6 +27,8 @@
             color: #FFFFFF;
             display: flex;
             justify-content: center;
+            @media screen and(min-width:1200px) {
+            justify-content: flex-start;}
         }
     &-phone,
     &-mail {
@@ -35,13 +38,19 @@
             letter-spacing: 0.03em;
             color: rgba(255, 255, 255, 0.6);
             display: flex;
-                justify-content: center;
+            justify-content: center;
+                @media screen and(min-width:1200px) {
+                    max-width: 1200px;
+                        display: flex;
+                            justify-content: center;
+                            align-items: flex-start;
+                }
         }
     &-text {
             font-style: normal;
             font-size: 14px;
             line-height: 1.71;
-            letter-spacing: 0.03em;
+            
             color: #FFFFFF;
             margin-top: 20px;
             display: flex;
@@ -53,6 +62,12 @@
             gap: 9px;
             display: flex;
                 justify-content: center;
+                @media screen and(min-width:1200px) {
+                        max-width: 1200px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: flex-start;
+                    }
         }
     &-form {
                     display: flex;
@@ -87,6 +102,9 @@
             text-transform: uppercase;
             color: #FFFFFF;
             margin-bottom: 20px;
+            @media screen and(min-width:1200px) {
+                justify-content: flex-start;
+            }
         }    
     &-list {
             display: flex;
@@ -132,6 +150,10 @@
             color: #FFFFFF;
             display: flex;
             justify-content: center;
+            @media screen and(min-width:1200px) {
+                    justify-content: flex-start;
+        padding-left: 90px;
+            }
         }
 }
 

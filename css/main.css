@@ -164,8 +164,6 @@ button {
     flex-wrap: wrap;
     gap: 10px;
     margin-left: 49px;
-    margin-bottom: 21px;
-    margin-top: 21px;
   }
 }
 .header-icon {
@@ -369,7 +367,7 @@ button {
 }
 @media screen and (min-width: 768px) {
   .hero {
-    max-width: 738px;
+    max-width: 100%;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-tab.jpg);
   }
 }
@@ -380,7 +378,7 @@ button {
 }
 @media screen and (min-width: 1200px) {
   .hero {
-    max-width: 1200px;
+    max-width: 100%;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-deskt.jpg);
   }
 }
@@ -391,20 +389,23 @@ button {
 }
 .hero .contant {
   text-align: center;
-  padding: 118px 60px;
+  padding-top: 118px;
+  padding-bottom: 118px;
 }
 @media screen and (min-width: 768px) {
   .hero .contant {
     max-width: 738px;
     text-align: center;
-    padding: 118px 100px;
+    padding-top: 118px;
+    padding-bottom: 118px;
   }
 }
 @media screen and (min-width: 1200px) {
   .hero .contant {
     max-width: 1200px;
     text-align: center;
-    padding: 210px 200px;
+    padding-top: 210px;
+    padding-bottom: 210px;
   }
 }
 .hero-title {
@@ -736,9 +737,9 @@ button {
   .footer .container {
     max-width: 1200px;
     display: flex;
+    gap: 0px;
     flex-wrap: nowrap;
     justify-content: none;
-    gap: 0;
   }
 }
 .footer-logo {
@@ -751,6 +752,11 @@ button {
   display: flex;
   justify-content: center;
 }
+@media screen and (min-width: 1200px) {
+  .footer-logo {
+    justify-content: flex-start;
+  }
+}
 .footer-phone, .footer-mail {
   font-style: normal;
   font-size: 14px;
@@ -760,11 +766,18 @@ button {
   display: flex;
   justify-content: center;
 }
+@media screen and (min-width: 1200px) {
+  .footer-phone, .footer-mail {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
 .footer-text {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: #FFFFFF;
   margin-top: 20px;
   display: flex;
@@ -776,6 +789,14 @@ button {
   gap: 9px;
   display: flex;
   justify-content: center;
+}
+@media screen and (min-width: 1200px) {
+  .footer-address {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
 }
 .footer-form {
   display: flex;
@@ -816,6 +837,11 @@ button {
   text-transform: uppercase;
   color: #FFFFFF;
   margin-bottom: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .footer-soc-title {
+    justify-content: flex-start;
+  }
 }
 .footer-soc-list {
   display: flex;
@@ -859,6 +885,12 @@ button {
   color: #FFFFFF;
   display: flex;
   justify-content: center;
+}
+@media screen and (min-width: 1200px) {
+  .invite-label {
+    justify-content: flex-start;
+    padding-left: 90px;
+  }
 }
 
 .footer-form {

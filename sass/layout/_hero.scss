@@ -12,7 +12,7 @@
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-mob@2x.jpg);
             }
     @media screen and(min-width:768px) {
-            max-width: 738px;
+            max-width: 100%;
             background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-tab.jpg);
     }
     @media (min-device-pixel-ratio: 2),
@@ -21,7 +21,7 @@
             background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-tab@2x.jpg);
             }
     @media screen and(min-width:1200px) {
-            max-width: 1200px;
+            max-width: 100%;
             background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-deskt.jpg);
     }
     @media (min-device-pixel-ratio: 2),
@@ -31,17 +31,21 @@
             }
     .contant{
         text-align: center;
-        padding: 118px 60px;
+        padding-top: 118px ;
+        padding-bottom: 118px;
+
         @media screen and(min-width:768px) {
                 max-width: 738px;
                 text-align: center;
-                    padding: 118px 100px ;
+                    padding-top: 118px;
+                        padding-bottom: 118px;
             }
         
             @media screen and(min-width:1200px) {
                 max-width: 1200px;
                 text-align: center;
-                padding: 210px 200px;
+                padding-top: 210px;
+                    padding-bottom: 210px;
             }
     }
     &-title {
