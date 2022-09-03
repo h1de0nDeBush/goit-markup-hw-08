@@ -328,6 +328,7 @@ button {
   line-height: 1.1764705882;
   letter-spacing: 0.02em;
   color: #2196F3;
+  display: flex;
   margin-bottom: 32px;
 }
 
@@ -466,8 +467,17 @@ button {
 }
 
 .about {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .about {
+    max-width: 1200px;
+    padding-top: 94px;
+    padding-bottom: 118px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 .about__wrap-list {
   width: 100%;
@@ -528,8 +538,27 @@ button {
 }
 
 .projects {
-  padding-top: 0px;
-  padding-bottom: 94px;
+  display: none;
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .projects {
+    max-width: 1200px;
+    padding-top: 94px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .projects {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .projects {
+    max-width: 1200px;
+    display: block;
+  }
 }
 .projects__list {
   display: none;
@@ -587,9 +616,18 @@ button {
 }
 
 .team {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #F5F4FA;
+}
+@media screen and (min-width: 1200px) {
+  .team {
+    max-width: 1200px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 .team-list {
   display: flex;
@@ -672,8 +710,17 @@ button {
 }
 
 .clients {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .clients {
+    max-width: 1200px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 .clients__title {
   font-weight: 700;
@@ -715,7 +762,7 @@ button {
   }
 }
 .clients__link {
-  width: 170px;
+  width: 210px;
   height: 92px;
   display: block;
   border: 1px solid #AFB1B8;
@@ -729,6 +776,20 @@ button {
 .clients__link:hover, .clients__link:focus {
   border: 1px solid #2196F3;
   color: #2196F3;
+}
+@media screen and (min-width: 768px) {
+  .clients__link {
+    max-width: 738px;
+    width: 226px;
+    height: 92px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clients__link {
+    max-width: 1200px;
+    width: 170px;
+    height: 92px;
+  }
 }
 .clients__icon {
   fill: currentColor;
@@ -981,8 +1042,17 @@ button {
 }
 
 .gallery {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .gallery {
+    max-width: 1200px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 .gallery-list {
   display: flex;
