@@ -3,11 +3,8 @@
     padding-bottom: 60px;
     background-color: #F5F4FA;
     @media screen and(min-width:1200px) {
-            max-width: 1200px;
             padding-top: 94px;
                 padding-bottom: 94px;
-                margin-left: auto;
-                    margin-right: auto;
         }
     &-list {
             display: flex;
@@ -32,12 +29,21 @@
         }
     &-title {
             font-weight: 700;
+            font-size: 28px;
+            line-height: calc(32/28);
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: var(--title-colot);
+            margin-bottom: 30px;
+        @media screen and(min-width:1200px) {
+            font-weight: 700;
             font-size: 36px;
             line-height: calc(42/36);
             text-align: center;
             letter-spacing: 0.03em;
             color: var(--title-colot);
             margin-bottom: 50px;
+            }
         }
     &-name {
             font-weight: 500;

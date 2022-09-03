@@ -472,11 +472,7 @@ button {
 }
 @media screen and (min-width: 1200px) {
   .about {
-    max-width: 1200px;
     padding-top: 94px;
-    padding-bottom: 118px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 .about__wrap-list {
@@ -543,20 +539,13 @@ button {
 }
 @media screen and (min-width: 1200px) {
   .projects {
-    max-width: 1200px;
-    padding-top: 94px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .projects {
-    margin-left: auto;
-    margin-right: auto;
     display: block;
   }
 }
 @media screen and (min-width: 1200px) {
   .projects {
-    max-width: 1200px;
+    padding-top: 94px;
+    padding-bottom: 94px;
     display: block;
   }
 }
@@ -622,11 +611,8 @@ button {
 }
 @media screen and (min-width: 1200px) {
   .team {
-    max-width: 1200px;
     padding-top: 94px;
     padding-bottom: 94px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 .team-list {
@@ -655,12 +641,23 @@ button {
 }
 .team-title {
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.1666666667;
+  font-size: 28px;
+  line-height: 1.1428571429;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-colot);
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 1200px) {
+  .team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1666666667;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-colot);
+    margin-bottom: 50px;
+  }
 }
 .team-name {
   font-weight: 500;
@@ -715,17 +712,14 @@ button {
 }
 @media screen and (min-width: 1200px) {
   .clients {
-    max-width: 1200px;
     padding-top: 94px;
     padding-bottom: 94px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 .clients__title {
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.1666666667;
+  font-size: 28px;
+  line-height: 1.1428571429;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -735,6 +729,12 @@ button {
   .clients__title {
     max-width: 1200px;
     margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1666666667;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
   }
 }
 .clients__list {
@@ -1047,11 +1047,8 @@ button {
 }
 @media screen and (min-width: 1200px) {
   .gallery {
-    max-width: 1200px;
     padding-top: 94px;
     padding-bottom: 94px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 .gallery-list {
